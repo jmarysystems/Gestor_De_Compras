@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.java.j2seproject</type>
+    <configuration>
+        <buildExtensions xmlns="http://www.netbeans.org/ns/ant-build-extender/1">
+            <extension file="jfx-impl.xml" id="jfx3">
+                <dependency dependsOn="-jfx-copylibs" target="-post-jar"/>
+                <dependency dependsOn="-rebase-libs" target="-post-jar"/>
+                <dependency dependsOn="jfx-deployment" target="-post-jar"/>
+                <dependency dependsOn="jar" target="debug"/>
+                <dependency dependsOn="jar" target="profile"/>
+                <dependency dependsOn="jar" target="run"/>
+            </extension>
+        </buildExtensions>
+        <data xmlns="http://www.netbeans.org/ns/j2se-project/3">
+            <name>Gestor_De_Compras</name>
+            <source-roots>
+                <root id="src.dir"/>
+                <root id="src.Login.dir"/>
+                <root id="src.Usuario.dir"/>
+                <root id="src.Utilidades.dir"/>
+                <root id="src.js.dir"/>
+                <root id="src.css.dir"/>
+                <root id="src.Fonema_E_Letra.dir"/>
+                <root id="src.Fonema_e_Letra_DB.dir"/>
+                <root id="src.Fornecedor.dir"/>
+                <root id="src.Categoria_do_Produto.dir"/>
+                <root id="src.Embalagem.dir"/>
+                <root id="src.Produto.dir"/>
+                <root id="src.Produto_Por_Fornecedor.dir"/>
+                <root id="src.Gestor.dir"/>
+                <root id="src.SysPDV.dir"/>
+                <root id="src.Imprimir.dir"/>
+            </source-roots>
+            <test-roots>
+                <root id="test.src.dir"/>
+            </test-roots>
+        </data>
+    </configuration>
+</project>

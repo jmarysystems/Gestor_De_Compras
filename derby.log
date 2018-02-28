@@ -1,0 +1,10 @@
+----------------------------------------------------------------
+Sat Oct 25 01:54:12 GMT-03:00 2014:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.2.2 - (1181258): instance a816c00e-0149-45a7-9b13-00000084aea8 
+on database directory C:\Users\pc\JMarySystems\db_fonema_e_letra  with class loader java.net.URLClassLoader@b61fd1 
+Loaded from file:/C:/Users/pc/Documents/NetBeansProjects/Gestor_De_Compras/dist/run1243789879/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_51-b13
+user.dir=C:\Users\pc\Documents\NetBeansProjects\Gestor_De_Compras
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
